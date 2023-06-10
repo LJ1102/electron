@@ -540,7 +540,6 @@ source_set("electron_lib") {
 
   if (is_mac) {
     deps += [
-      ":chrome_lib_arc",
       ":electron_lib_arc",
       "//components/remote_cocoa/app_shim",
       "//components/remote_cocoa/browser",
